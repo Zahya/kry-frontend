@@ -1,0 +1,41 @@
+.action-button {
+    display: flex;
+    width: 335px;
+    height: 50px;
+    border-radius: 6px;
+    background-color: #eceff1;
+    padding: 15px 12px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    
+}
+
+.action-button__label {
+    width: 298px;
+    height: 19px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #7b99a9;
+}
+
+.action-button--active {
+    background-color: #6accba;    
+    cursor: pointer;
+}
+
+.action-button--active .action-button__label {
+    color: #ffffff;
+}
+
+.icon__arrow-right {
+    object-fit: contain;
+    width: 24px;
+    height: 24px;
+}

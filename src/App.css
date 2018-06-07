@@ -1,0 +1,7 @@
+.App {
+  width: 1440px;
+  height: 1024px;
+  background-image: radial-gradient(circle at 49% 50%, #98dfd2, #6accba);
+  padding: 179px 520px;  
+  box-sizing: border-box;
+}

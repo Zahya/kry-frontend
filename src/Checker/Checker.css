@@ -1,0 +1,136 @@
+.Checker {
+    position: relative;
+    width: 375px;
+    height: 667px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+}
+
+.checker__header {
+    display: flex;
+    padding-top: 25px; 
+    width: 375px;
+    height: 64px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border: none;
+    background-color: #ffffff;
+    cursor: pointer;
+    outline: none;
+}
+
+.checker__header:disabled {
+    cursor: default;
+}
+
+.checker__question {
+    margin-top: 190px; 
+    width: 335px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.23;
+    letter-spacing: normal;
+    text-align: left;
+    color: #3f6072; 
+}
+
+.checker__title {
+    margin-top: 7px;
+    width: 100%;
+    height: 19px;
+    margin-right: 32px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #3f6072;
+}
+
+.checker__progressbar {
+    width: 100%;
+    height: 1px;
+    background-color: #e9ecf0;    
+}
+
+.checker__progressbar--progress {
+    width: 0;
+    height: 1px;
+    background-color: #6accba;
+}
+
+.checker__content {
+    padding: 0 20px;
+}
+
+.checker__outcome {
+    width: 335px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    text-align: left;
+    color: #3f6072;
+    margin-top: 15px;
+}
+
+.checker__buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 26px;
+}
+
+.checker__divider {
+    width: 36px;
+    height: 3px;
+    background-color: rgba(63, 96, 114, 0.1);
+    margin-top: 12px;
+}
+
+.checker__next-button {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.checker__book-button {
+    margin-top: 20px; 
+}
+
+.checker__back-start {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 335px;
+    height: 22px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    text-align: center;
+    color: #6accba;
+}
+
+.icon__arrow-left {
+    transform: rotate(180deg);
+}
+
+.hidden {
+    visibility: hidden;
+}
+

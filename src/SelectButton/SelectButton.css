@@ -1,0 +1,42 @@
+.select-button {
+    width: 162px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 36px;
+    border: solid 1.5px #e4eaee;
+    padding: 14px 22px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.select-button__label {
+    height: 19px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #6accba;
+}
+
+.select-button:hover {
+    background-color: #6accba;
+    border-color: #6accba;
+    cursor: pointer;
+}
+
+.select-button:hover .select-button__label {
+    color: #ffffff;
+}
+
+.select-button--selected {
+    background-color: #6accba;
+    border-color: #6accba;
+}
+
+.select-button--selected .select-button__label {
+    color: #ffffff;
+}
